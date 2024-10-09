@@ -10,8 +10,8 @@ using MvcMovie.Data;
 
 namespace MvcMovie.Migrations
 {
-    [DbContext(typeof(PagesMovieContext))]
-    partial class PagesMovieContextModelSnapshot : ModelSnapshot
+    [DbContext(typeof(MvcMovieContext))]
+    partial class MvcMovieContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
